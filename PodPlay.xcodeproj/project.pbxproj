@@ -19,6 +19,7 @@
 		2E2990BA1E5128D800B53AA7 /* PodPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E2990B81E5128D800B53AA7 /* PodPlay.xcdatamodeld */; };
 		2E2990F71E5152C000B53AA7 /* PodEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2990F51E5152C000B53AA7 /* PodEpisodeViewController.swift */; };
 		2E2990F81E5152C000B53AA7 /* PodEpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2990F61E5152C000B53AA7 /* PodEpisodeViewController.xib */; };
+		2E2990FC1E518B2D00B53AA7 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2990FB1E518B2D00B53AA7 /* SplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		2E2990B91E5128D800B53AA7 /* PodPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PodPlay.xcdatamodel; sourceTree = "<group>"; };
 		2E2990F51E5152C000B53AA7 /* PodEpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodEpisodeViewController.swift; sourceTree = "<group>"; };
 		2E2990F61E5152C000B53AA7 /* PodEpisodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PodEpisodeViewController.xib; sourceTree = "<group>"; };
+		2E2990FB1E518B2D00B53AA7 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				2E2990B81E5128D800B53AA7 /* PodPlay.xcdatamodeld */,
 				2E2990F51E5152C000B53AA7 /* PodEpisodeViewController.swift */,
 				2E2990F61E5152C000B53AA7 /* PodEpisodeViewController.xib */,
+				2E2990FB1E518B2D00B53AA7 /* SplitViewController.swift */,
 			);
 			path = PodPlay;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				2E2990B71E51260200B53AA7 /* SWXMLHash+TypeConversion.swift in Sources */,
 				2E2990F71E5152C000B53AA7 /* PodEpisodeViewController.swift in Sources */,
 				2E2990BA1E5128D800B53AA7 /* PodPlay.xcdatamodeld in Sources */,
+				2E2990FC1E518B2D00B53AA7 /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +533,7 @@
 				2E2990A91E50F76200B53AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2990AA1E50F76200B53AA7 /* Build configuration list for PBXNativeTarget "PodPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +542,7 @@
 				2E2990AC1E50F76200B53AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2990AD1E50F76200B53AA7 /* Build configuration list for PBXNativeTarget "PodPlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +551,7 @@
 				2E2990AF1E50F76200B53AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,6 +10,16 @@ import Cocoa
 
 class PodEpisodeViewController: NSViewController {
     
+    @IBOutlet weak var podTitle: NSTextField!
+    @IBOutlet weak var PPButton: NSButton!
+    @IBOutlet weak var podImage: NSImageView!
+    
+    @IBAction func PPButton(_ sender: Any) {
+        
+    }
+    @IBAction func deleteButton(_ sender: Any) {
+        
+    }
     
 
     override func viewDidLoad() {
